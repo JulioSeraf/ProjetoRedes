@@ -6,20 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>home</title>
     <style>
-        *{
-            margin: 0;
-            height: 0;
-
-        }
-        body{
-            width: 100vw;
-            height: 100vh;
-            background: blue url(imagens/tela-youtube.png)no-repeat top center;
-            background-size: cover;
-        }
+    *{
+        margin: 0;
+        padding: 0;
+        background-color: black;
+    }
+    ::-webkit-scrollbar{
+        width: 0;
+        height: 0;
+    }
+    img{
+        width: 100vw;
+        min-width: none;
+    }
+    a{
+        display: block;
+        padding: 10px;
+        text-decoration: none;
+        background-color: rgba(189, 7, 7, 0.623);
+        color: black;
+        text-align: center;
+        font-size: 5vw;
+        font-weight: bolder;
+    }
+    a:hover {
+        background-color: rgb(255, 0, 0);
+    }
     </style>
 </head>
 <body>
+    <img src="imagens/tela-youtube.png" alt="tela do youtube">
+    <a href="https://www.youtube.com/@CursoemVideo/playlists" target="_blank" rel="external">Acesse aqui</a>
     
 </body>
 </html>
